@@ -11,6 +11,7 @@
     "test": "jest && eslint '**/*.ts'",
     "watch:tests": "jest --watch",
     "lint": "eslint '**/*.ts' --fix",
+    "install": "npm run build",
     "build": "rm -rf lib && tsc --declaration",
     "example": "npm run build && node ./lib/examples/example.js",
     "api-example": "npm run build && node ./lib/examples/api-example.js",
